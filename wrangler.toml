@@ -1,0 +1,37 @@
+name = "cf-ai-spyfall"
+main = "workers/index.js"
+compatibility_date = "2024-11-18"
+compatibility_flags = ["nodejs_compat"]
+
+# Workers AI binding for Llama 3.3
+[ai]
+binding = "AI"
+
+# Durable Objects for game session management
+[[durable_objects.bindings]]
+name = "GAME_SESSIONS"
+class_name = "GameSession"
+script_name = "cf-ai-spyfall"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["GameSession"]
+
+# KV namespace for persistent memory and game statistics
+[[kv_namespaces]]
+binding = "GAME_MEMORY"
+id = "YOUR_KV_NAMESPACE_ID"           # Replace after running: wrangler kv:namespace create "GAME_MEMORY"
+preview_id = "YOUR_PREVIEW_KV_ID"     # Replace after running: wrangler kv:namespace create "GAME_MEMORY" --preview
+
+# Environment variables (no secrets needed for Workers AI!)
+[vars]
+ENVIRONMENT = "production"
+
+# Pages configuration for frontend
+[site]
+bucket = "./dist"
+
+# Development settings
+[dev]
+port = 8787
+local_protocol = "http"
