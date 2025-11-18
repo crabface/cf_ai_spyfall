@@ -18,10 +18,11 @@ tag = "v1"
 new_classes = ["GameSession"]
 
 # KV namespace for persistent memory and game statistics
-[[kv_namespaces]]
-binding = "GAME_MEMORY"
-id = "YOUR_KV_NAMESPACE_ID"           # Replace after running: wrangler kv:namespace create "GAME_MEMORY"
-preview_id = "YOUR_PREVIEW_KV_ID"     # Replace after running: wrangler kv:namespace create "GAME_MEMORY" --preview
+# Uncomment and add IDs after running: wrangler kv:namespace create "GAME_MEMORY"
+# [[kv_namespaces]]
+# binding = "GAME_MEMORY"
+# id = "YOUR_KV_NAMESPACE_ID"
+# preview_id = "YOUR_PREVIEW_KV_ID"
 
 # Environment variables (no secrets needed for Workers AI!)
 [vars]

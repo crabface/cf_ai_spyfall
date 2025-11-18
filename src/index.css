@@ -30,24 +30,24 @@ body {
   .btn {
     @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
   }
-  
+
   .btn-primary {
-    @apply bg-primary hover:bg-primary/90 text-white;
+    @apply bg-purple-600 hover:bg-purple-700 text-white;
   }
-  
+
   .btn-secondary {
-    @apply bg-secondary hover:bg-secondary/90 text-white;
+    @apply bg-indigo-600 hover:bg-indigo-700 text-white;
   }
-  
+
   .btn-danger {
-    @apply bg-danger hover:bg-danger/90 text-white;
+    @apply bg-red-600 hover:bg-red-700 text-white;
   }
-  
+
   .card {
     @apply bg-slate-800 rounded-xl p-6 shadow-xl border border-slate-700;
   }
-  
+
   .input {
-    @apply w-full px-4 py-2 rounded-lg bg-slate-700 border border-slate-600 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+    @apply w-full px-4 py-2 rounded-lg bg-slate-700 border border-slate-600 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent;
   }
 }
