@@ -176,7 +176,7 @@ Key configuration:
 
 ## 🤝 Contributing
 
-This is a demo project for Cloudflare's internship application. Feel free to fork and build upon it!
+This is a demo project for Cloudflare's internship application. No collaborators.
 
 ## 📝 License
 
@@ -184,10 +184,10 @@ MIT License - feel free to use this code for learning and projects.
 
 ## 🙋 Questions?
 
-Built by [Your Name] as part of Cloudflare's 2025 Internship Application.
+Built by Neha Lazar as part of Cloudflare's 2025 Internship Application.
 
-- GitHub: [@yourusername]
-- Email: your.email@example.com
+- GitHub: [@crabface]
+- Email: nl23782@eid.utexas.edu
 
 ---
 
