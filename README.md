@@ -1,7 +1,4 @@
 # cf_ai_spyfall
-An AI-powered Spyfall game where players can chat with an AI to ask subtle questions, and the AI helps facilitate the game by managing roles, tracking suspicions, and providing hints.
-
-# cf_ai_spyfall
 
 An AI-powered Spyfall game built on Cloudflare's developer platform. Players receive secret roles and must identify the spy through conversation, with an AI assistant helping facilitate gameplay.
 
